@@ -1,0 +1,16 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config@1.5.0/schema.json",
+  "changelog": "@changesets/cli/changelog",
+  "commit": false,
+  "linked": [],
+  "access": "public",
+  "baseBranch": "master",
+  "updateInternalDependencies": "patch",
+  "ignore": [
+    "mercurius-example",
+    "react-example",
+    "website",
+    "github-example",
+    "cra-example"
+  ]
+}
